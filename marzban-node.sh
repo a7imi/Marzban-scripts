@@ -86,7 +86,7 @@ read -r panel
 panel=${panel:-node$(openssl rand -hex 1)}
 
 # Core version
-print_info "Which version of Xray-core do you want? (e.g., 1.8.8) (leave blank for latest): "
+print_info "Which version of Xray-core do you want? (e.g., 1.8.21) (leave blank for latest): "
 read -r version
 version=${version:-latest}
 
